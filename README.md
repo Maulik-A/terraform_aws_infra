@@ -81,6 +81,7 @@ The Terraform configuration is organized into modules and resource files, includ
 - `vpc.tf`: Defines the VPC and subnets.
 - `main.tf`: Defines the EC2 instance,the PostgreSQL RDS instance.
 - `variables.tf`: Contains input variables for customization.
+- `security_group.tf`: Defines the security group for inbound and outbound traffic.
 -  Note: You need to create SSH credentials that used to SSH to EC2 instance. Follow this steps. https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/create-with-openssh/
 
 ## Outputs
