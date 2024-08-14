@@ -1,0 +1,21 @@
+ssh into Linux server:
+
+ssh -i id_rsa ubuntu@ ip -----for example ssh -i id_rsa ubuntu@3.8.205.149
+sudo -i -- for working as admin
+
+-set up root password by following:
+sudo passwd root
+su root
+
+- enable firewall
+ufw allow OpenSSH
+ufw enable -y
+ufw status
+
+-- follow docker install here
+https://docs.docker.com/engine/install/ubuntu/
+
+--follow github action runner setup to conenct with EC2
+
+-- for postgres connection
+psql --host=app-db.cxykiyuge22l.eu-west-2.rds.amazonaws.com --port=5432 --username=adminuser --password dbname=postgres
