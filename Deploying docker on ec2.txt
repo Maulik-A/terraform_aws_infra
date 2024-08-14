@@ -1,5 +1,4 @@
 ssh into Linux server:
-
 ssh -i id_rsa ubuntu@ ip -----for example ssh -i id_rsa ubuntu@3.8.205.149
 sudo -i -- for working as admin
 
