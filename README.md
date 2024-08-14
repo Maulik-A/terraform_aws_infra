@@ -107,7 +107,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides an overview of the project, instructions for setting up and using the Terraform configuration, and details on how to contribute. Adjust the content as necessary to fit your repository's specific details.
